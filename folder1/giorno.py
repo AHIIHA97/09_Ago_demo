@@ -1,9 +1,9 @@
 ##heyhey
 print("du bist dumm!")
-i = 54
+i = 55
 y = 65
 def sumfe (n1, n2):
   su = n1+n2
   return su
 
-susu = sumfe(23.484 , 33.978)
+susum = sumfe(23.484 , 33.978)

@@ -1,0 +1,34 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Show VSCode processes",
+            "type": "shell",
+            "options": {
+                "shell": {
+                    "executable": "PowerShell"
+                }
+            },
+            "command": "Get-Process",
+            "args": ["code"],
+            "problemMatcher": [],
+        },
+        {
+            "label": "Git add, commit, push to current branch",
+            "type": "shell",
+            "command": "git add . ; git commit -m\"Auto commit from task\" ; git push",
+            "options": {
+                "shell": {
+                    "executable": "PowerShell"
+                }
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+        }
+    ]
+}

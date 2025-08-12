@@ -1,7 +1,7 @@
 ##heyhey
 print("du bist dumm!")
 i = 55
-y = 85
+y = 95
 def sumfe (n1, n2):
   su = n1+n2
   print(su)
